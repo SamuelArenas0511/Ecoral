@@ -16,6 +16,11 @@
     background: var(--color-Secundario)
 }
 
+body{
+    background-color: #f3f3f3;
+}
+
+
 /* Reset */
 
 *{
@@ -139,6 +144,28 @@ header.shadow .logo{
     font-style: italic;
 }
 
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+form .barra-busqueda{
+    width: 70%;
+    height: 40px;
+    line-height: 40px;
+    background: #ffff;
+    padding: 0px 20px;
+    border-radius: 100px;
+    border: solid 2px var(--color-Secundario);
+    text-align: center;
+    font-size: 16px;
+    outline: none;
+    margin-top: 20px;
+}
+
+
 /* Filtro */
 
 .filtro{
@@ -150,12 +177,12 @@ header.shadow .logo{
 }
 
 .filtro-item{
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
     cursor: pointer;
 }
 
-.activar-filtro{
+.filtro-item.activar-filtro{
     background: var(--color-Secundario);
     color: var(--color-fondo);
     padding: 4px 10px;
@@ -187,7 +214,7 @@ header.shadow .logo{
 
 .post{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(500px, auto));
+    grid-template-columns: repeat(auto-fit,minmax(350px, auto));
     gap:1.5rem;
     justify-content: center;
 }
@@ -211,7 +238,16 @@ header.shadow .logo{
     font-size: 0.9rem;
     font-weight: 500;
     text-transform: uppercase;
-    color: var(--color-Secundario);
+}
+
+.categoria.uno{
+    color: #408fc4;
+}
+.categoria.dos{
+    color: #17c28f;
+}
+.categoria.tres{
+    color: #e69011;
 }
 
 .post-titulo{
