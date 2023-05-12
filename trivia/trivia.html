@@ -1,0 +1,164 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Trivia</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<header>
+
+<body>
+  <style>
+    ::-webkit-scrollbar {
+    display: none;
+    }
+
+    * {
+      transition: all 0.3s;
+    }
+
+    a{
+      text-decoration: none;
+    }
+
+    .ico{
+      display:inline-block;
+      background-color: #00c040;
+      border-radius: 100px;
+      padding: 10px;
+      margin-right: 20px;
+      cursor:pointer
+    }
+    .ico:hover{
+      background-color: #408fc4;
+    }
+    .ico:active{
+      background-color: #e69011;
+    }
+    
+    #icono{
+      font-size: 25px;
+    }
+
+  
+
+    .nav{
+      display: flex;
+      align-items: center ;
+      justify-content: center;
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    .logo{
+      font-size: 3rem;
+      font-weight: 600;
+      color: #ffffff;
+      transition: 0.3s all;
+    }
+
+    .logo span{
+      color: #00c040;
+    } 
+
+    body {
+
+      background: #232526;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 120%;
+    }
+
+    .contenedor {
+      width: 98vw;
+      height: 80vh;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .encabezado {
+      position: relative;
+      background: white;
+      min-width: 300px;
+      width: 70%;
+      max-width: 600px;
+      padding: 10px;
+    }
+
+    .categoria {
+      opacity: 0.3;
+      text-align: left;
+    }
+
+    .pregunta {
+      padding: 10px;
+    }
+
+    .imagen {
+      object-fit: cover;
+      height: 0px;
+      width: 0px;
+    }
+
+    .btn {
+      background: white;
+      width: 60%;
+      max-width: 550px;
+      padding: 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+    
+    .numero{
+      position: absolute;
+      opacity:0.3;
+      top: 10px;
+      right: 10px;
+    }
+    
+    .puntaje{
+      padding:10px;
+      color:white;
+    }
+  </style>
+  
+  <div class="nav">
+    <div class="ico">
+      <a href="../index.html"><i class='bx bx-arrow-back bx-flip-vertical' style='color:#ffffff' id="icono" ></i></a>
+    </div>
+    <!-- Logo -->
+    <a href="../index.html" class="logo">Eco<span>ral</span></a>
+  </div>
+
+  
+  
+
+  <div class="contenedor">
+    <div class="puntaje" id="puntaje"></div>
+    <div class="encabezado">
+      <div class="categoria" id="categoria">
+      </div>
+      <div class="numero" id="numero"></div>
+      <div class="pregunta" id="pregunta">
+      </div>
+      <img src="#" class="imagen" id="imagen">
+    </div>
+    <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+    <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+    <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+    <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+    
+    <script src="index.js"></script>
+  </div>
+
+</body></html>
