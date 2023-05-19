@@ -8,6 +8,7 @@
 
     <!-- estilo css -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Iconos -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -16,7 +17,6 @@
     <!-- Encabezado -->
     <header>
         <div class="nav contenedor">
-
             <!-- Logo -->
           <a href="#" class="logo">Eco<span>ral</span></a>
             <!-- Nombre -->
@@ -28,8 +28,8 @@
     <!-- Inicio -->
     <section class="inicio inicio-bg" id="inicio">
         <div class="inicio-texto contenedor">
-            <h2 class="inicio-titulo">ECORAL</h2>
-            <span class="inicio-subtitulo">"Juntos por un futuro sostenible"</span>
+            <h2 class="inicio-titulo animate__animated animate__bounce" id="titulo">ECORAL</h2>
+            <p class="inicio-subtitulo">"Juntos por un futuro sostenible"</p>
         </div>
 
     </section>
@@ -37,14 +37,13 @@
 
      <!-- Filtro -->
     <div class="filtro contenedor">
-        <span class="filtro-item uno" data-filter="adp" id="F1">Reducir</span>
-        <span class="filtro-item dos" data-filter="adp2" id="F2">Reciclar</span>
-        <span class="filtro-item tres" data-filter="adp3" id="F3">Reutilizar</span>
+        <span class="filtro-item cero animate__animated activar-filtro" data-filter="all" id="F" >Todo</span>
+        <span class="filtro-item uno animate__animated" data-filter="adp" id="F1">Reducir</span>
+        <span class="filtro-item dos animate__animated" data-filter="adp2" id="F2">Reciclar</span>
+        <span class="filtro-item tres animate__animated" data-filter="adp3" id="F3">Reutilizar</span>
+        <span class="filtro-item cuatro animate__animated" data-filter="adp4" id="F4">Social</span>
     </div>
 
-    <form action="">
-        <input type="text" class="barra-busqueda"  id="barra-busqueda" placeholder="buscar">
-    </form>
 
      <!-- Post -->
     <section class="post contenedor">
@@ -56,7 +55,7 @@
         <!-- Post 1 -->
       
         <div class="post-caja adp">
-            <a href="post-page-1.html"><img src="img/caja1.jpg" alt="" class="post-img"></a>
+            <a href="post-page-1.html"><img src="img/caja1.jpg" alt="" class="post-img" id="imagen"></a>
             <h2 class="categoria uno">Reducir</h2>
             <a href="post-page-1.html" class="post-titulo">
                 Cómo reducir el desperdicio de alimentos en casa
@@ -79,7 +78,7 @@
         </div>
         
          <!-- Post 3 -->
-        <div class="post-caja adp">
+        <div class="post-caja adp animado">
             <a href="post-page-3.html"><img src="img/caja3.jpg" alt="" class="post-img"></a>
             <h2 class="categoria uno">Reducir</h2>
             <a href="post-page-3.html" class="post-titulo">
@@ -91,7 +90,7 @@
         </div>
 
          <!-- Post 4 -->
-         <div class="post-caja adp">
+         <div class="post-caja adp animado">
             <a href="post-page-4.html"><img src="img/caja4.jpg" alt="" class="post-img"></a>
             <h2 class="categoria uno">Reducir</h2>
             <a href="post-page-4.html" class="post-titulo">
@@ -106,7 +105,7 @@
          <!-- Reciclar -->
 
         <!-- Post 5 -->
-        <div class="post-caja adp2">
+        <div class="post-caja adp2 animado">
             <a href="post-page-5.html"><img src="img/caja5.jpg" alt="" class="post-img"></a>
             <h2 class="categoria dos">Reciclar</h2>
             <a href="post-page-5.html" class="post-titulo">
@@ -118,7 +117,7 @@
         </div>
 
          <!-- Post 7 -->
-         <div class="post-caja adp2">
+         <div class="post-caja adp2 animado">
             <a href="post-page-7.html"><img src="img/caja7.jpg" alt="" class="post-img"></a>
             <h2 class="categoria dos">Reciclar</h2>
             <a href="post-page-7.html" class="post-titulo">
@@ -130,7 +129,7 @@
         </div>
 
         <!-- Post 6 -->
-        <div class="post-caja adp2">
+        <div class="post-caja adp2 animado">
             <a href="post-page-6.html"><img src="img/caja6.jpg" alt="" class="post-img"></a>
             <h2 class="categoria dos">Reciclar</h2>
             <a href="post-page-6.html" class="post-titulo">
@@ -142,7 +141,7 @@
         </div>
 
          <!-- Post 8 -->
-         <div class="post-caja adp2">
+         <div class="post-caja adp2 animado">
             <a href="post-page-8.html"><img src="img/caja8.jpg" alt="" class="post-img"></a>
             <h2 class="categoria dos">Reciclar</h2>
             <a href="post-page-8.html" class="post-titulo">
@@ -156,7 +155,7 @@
          <!-- Reutilizar -->
 
         <!-- Post 9 -->
-        <div class="post-caja adp3">
+        <div class="post-caja adp3 animado">
             <a href="post-page-9.html"><img src="img/caja9.jpg" alt="" class="post-img"></a>
             <h2 class="categoria tres">Reutilizar</h2>
             <a href="post-page-9.html" class="post-titulo">
@@ -168,7 +167,7 @@
         </div>
 
         <!-- Post 11 -->
-        <div class="post-caja adp3">
+        <div class="post-caja adp3 animado">
             <a href="post-page-11.html"><img src="img/caja11.jpg" alt="" class="post-img"></a>
             <h2 class="categoria tres">Reutilizar</h2>
             <a href="post-page-11.html" class="post-titulo">
@@ -180,7 +179,7 @@
         </div>
 
         <!-- Post 10 -->
-        <div class="post-caja adp3">
+        <div class="post-caja adp3 animado">
             <a href="post-page-10.html"><img src="img/caja10.jpg" alt="" class="post-img"></a>
             <h2 class="categoria tres">Reutilizar</h2>
             <a href="post-page-10.html" class="post-titulo">
@@ -193,7 +192,7 @@
 
         
         <!-- Post 12 -->
-        <div class="post-caja adp3">
+        <div class="post-caja adp3 animado">
             <a href="post-page-12.html"><img src="img/caja12.jpg" alt="" class="post-img"></a>
             <h2 class="categoria tres">Reutilizar</h2>
             <a href="post-page-12.html" class="post-titulo">
@@ -201,7 +200,26 @@
             </a>
             <span class="post-fecha">20 Mar 2023</span>
             <p class="post-descripcion">Tutorial para hacer un organizador de escritorio práctico y sostenible utilizando tubos de cartón reciclados.</p>
-        
+        </div>
+
+         <!-- Foro -->
+         <div class="post-caja adp4 animado">
+            <a href="foro.html"><img src="img/foro.png" alt="" class="post-img"></a>
+            <h2 class="categoria cuatro">Social</h2>
+            <a href="foro.html" class="post-titulo">
+                Foro
+            </a>
+            <p class="post-descripcion">Comunica tus ideas frente a como reciclar correctamente, ademas de compartir tus imagenes de lo que has hecho.</p>
+        </div>
+
+         <!-- Juego -->
+         <div class="post-caja adp4 animado">
+            <a href="JuegoReciclar-master/Index.html"><img src="img/juego.png" alt="" class="post-img"></a>
+            <h2 class="categoria cuatro">Social</h2>
+            <a href="JuegoReciclar-master/Index.html" class="post-titulo">
+                Juego de reciclaje
+            </a>
+            <p class="post-descripcion">Demuestra tus habilidades de reciclaje, con este maravilloso juego</p>
         </div>
          
         </div>
