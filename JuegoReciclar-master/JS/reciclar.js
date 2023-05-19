@@ -18,6 +18,6 @@ window.addEventListener("DOMContentLoaded", function() {
   "hideMethod": "fadeOut"
 }
 
-    reciclar = new reciclarGame();
+    reciclar = new ReciclarGame();
     reciclar.introducirNombre();
 })
