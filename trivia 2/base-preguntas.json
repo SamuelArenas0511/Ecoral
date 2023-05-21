@@ -1,0 +1,46 @@
+[
+    {
+        "categoria": "Reciclar",
+        "pregunta": "¿Cuál es el objetivo principal del reciclaje?",
+        "respuesta": "Aprovechar los materiales usados y convertirlos en nuevos productos.",
+        "incorrecta1": "Separar los materiales reciclables de los no reciclables.",
+        "incorrecta2": "Reducir la contaminación y conservar los recursos disponibles.",
+        "incorrecta3": "Clasificar los residuos en diferentes categorías.",
+        "imagen": "https://i.ibb.co/6PYFfMY/eciclaje-1.png",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "Reciclar",
+        "pregunta": "¿Cómo se deben clasificar los envases de vidrio antes de reciclarlos?",
+        "respuesta": "Por su color.",
+        "incorrecta1": "Por su contenido líquido",
+        "incorrecta2": "Por su fecha de vencimiento.",
+        "incorrecta3": " Por su tamaño y forma.",
+        "imagen": "https://i.ibb.co/VNk9VNM/eciclaje-2.png",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Reciclar",
+        "pregunta": "¿Qué se debe hacer con los residuos de metal antes de desecharlos?",
+        "respuesta": " Limpiar los restos de alimentos",
+        "incorrecta1": "Separarlos por tipo de metal.",
+        "incorrecta2": "Comprobar si contienen pilas o baterías.",
+        "incorrecta3": "Enviarlos a puntos de recolección especiales.",
+        "imagen": "https://i.ibb.co/HzwHXY2/eciclaje-3.png",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Reciclar",
+        "pregunta": "¿Qué tipo de residuos requieren un manejo especial debido a su peligro potencial?",
+        "respuesta": " Pilas, baterías y aparatos electrónicos.",
+        "incorrecta1": "Plásticos.",
+        "incorrecta2": "Vidrio.",
+        "incorrecta3": "Papel y cartón..",
+        "imagen": "https://i.ibb.co/cy8MZ02/eciclaje-4.png",
+        "objectFit": "contain"
+    }
+]
+    
+
+
+

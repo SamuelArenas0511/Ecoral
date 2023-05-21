@@ -271,11 +271,12 @@ form .barra-busqueda{
     box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
     padding: 15px;
     border-radius: 0.5rem;
+    transition: transform ease .5s;
+    overflow: hidden;
 }
 
 .post-caja:hover{
     transform: scale(1.05);
-    filter: brightness(1.1);
 }
 
 .post-img{
@@ -284,7 +285,9 @@ form .barra-busqueda{
     object-fit: cover;
     object-position: center;
     border-radius: 0.5rem;
+    transition: transform .5s ease;
 }
+
 
 
 
@@ -428,11 +431,6 @@ form .barra-busqueda{
     object-position:center ;
     border-radius: 0.5rem;
     transition: ease 1s;
-}
-
-.encabezado-img:hover{
-    transform: scale(1.05);
-    filter: brightness(1.1);
 }
 
 iframe{

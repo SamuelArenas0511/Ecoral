@@ -10,7 +10,7 @@ function mostrarScroll(){
     let scrollTop = document.documentElement.scrollTop;
     for(var i=0; i<animado.length; i++){
         let alturaAnimado = animado[i].offsetTop
-        if(alturaAnimado - 500 < scrollTop){
+        if(alturaAnimado - 700 < scrollTop){
             animado[i].style.opacity= 1;
             if(i==0 || i==1 || i==4 || i==5 || i==8 || i==9 ){
                 animado[i].classList.add("animar");
@@ -81,32 +81,32 @@ var f3 = document.getElementById("F3")
 var f4 = document.getElementById("F4")
 
 f.addEventListener("click", function(){
-    document.getElementById("barra-busqueda").style.border="solid 2px #49bb62"
+    
     f.classList.toggle("animate__heartBeat");
     
 })
 
 f1.addEventListener("click", function(){
-    document.getElementById("barra-busqueda").style.border="solid 2px #408fc4"
+   
     f1.classList.toggle("animate__heartBeat");
     
 })
 
 f2.addEventListener("click", function(){
-    document.getElementById("barra-busqueda").style.border="solid 2px #17c28f"
+    
     f2.classList.toggle("animate__heartBeat");
 })
 
 
 f3.addEventListener("click", function(){
-    document.getElementById("barra-busqueda").style.border="solid 2px #e69011"
+    
     f3.classList.toggle("animate__heartBeat");
     
 })
 
 
 f4.addEventListener("click", function(){
-    document.getElementById("barra-busqueda").style.border="solid 2px #118ae6"
+    
     f4.classList.toggle("animate__heartBeat");
 })
 
