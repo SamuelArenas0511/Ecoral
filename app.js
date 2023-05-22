@@ -113,7 +113,7 @@ f4.addEventListener("click", function(){
 
 
 // funcion cambiar fondo
-/*
+
 var fondo =document.getElementById("inicio");
 var numero = 1;
 var indentificador;
@@ -134,7 +134,7 @@ function CambiarFondo (){
     )
 }
 fondoCambiante()
-*/
+
 
 
 
